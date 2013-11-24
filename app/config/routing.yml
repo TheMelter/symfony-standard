@@ -1,0 +1,4 @@
+the_melter_basic:
+    resource: "@TheMelterBasicBundle/Resources/config/routing.yml"
+    prefix:   /
+

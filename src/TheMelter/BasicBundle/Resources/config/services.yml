@@ -1,0 +1,11 @@
+parameters:
+#    the_melter_basic.example.class: TheMelter\BasicBundle\Example
+
+services:
+    themelter.twig.themelter_extension:
+        class: TheMelter\BasicBundle\Twig\TheMelterExtension
+        tags:
+            - { name: twig.extension }
+#    the_melter_basic.example:
+#        class: %the_melter_basic.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
